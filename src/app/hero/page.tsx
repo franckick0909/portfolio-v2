@@ -2,6 +2,7 @@
 import Stats from "../components/stats";
 import { TextSplit } from "../components/textSplit";
 import { LetterSplit2 } from "../components/letterSplit2";
+import { AnimatedText } from "../components/animatedText";
 
 
 
@@ -31,6 +32,9 @@ export default function Hero() {
             </div>
           </div>
         </div>
+
+        <AnimatedText text="Je suis un Développeur web, basé en Aquitaine, France. Je suis passionné par la conception web depuis que ça existe, et j&apos;aime créer sur tous supports." className="text-slate-950 dark:text-slate-200 leading-tight max-w-96 overflow-hidden" />
+
         <div className="grid w-full h-full">
           <Stats />
         </div>
