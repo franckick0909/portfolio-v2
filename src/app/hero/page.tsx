@@ -21,8 +21,8 @@ export default function Hero() {
           </div>
 
           <div className="w-full h-full flex flex-1 flex-col max-lg:items-center justify-center max-h-[50vh] gap-20">
-            <div className="flex flex-1 mt-10 max-lg:justify-center max-w-80 ">
-              <TextSplit text="Je suis un Développeur web, basé en Aquitaine, France. Je suis passionné par la conception web depuis que ça existe, et j&apos;aime créer sur tous supports." className="text-slate-950 dark:text-slate-200 leading-tight" />
+            <div className="flex flex-1 mt-10 max-lg:justify-center max-w-96 overflow-hidden">
+              <AnimatedText text="Je suis un Développeur web, basé en Aquitaine, France. Je suis passionné par la conception web depuis que ça existe, et j&apos;aime créer sur tous supports." className="text-slate-950 dark:text-slate-200 leading-tight max-w-96 overflow-hidden" />
             </div>
             <div className="w-full flex-1 flex flex-col max-lg:items-end justify-end">
               <h1 className="text-5xl lg:text-6xl xl:text-7xl font-semibold text-slate-950 dark:text-slate-300 uppercase max-w-[28rem] text-start">

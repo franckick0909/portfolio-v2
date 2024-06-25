@@ -41,7 +41,7 @@ export const AnimatedText = ({
         {textArray.map((line, index) => (
             <span className="block" key={index}>
         {line.split(" ").map((word, index) => (
-            <span className="inline-block" key={index}>
+            <span className="inline-block overflow-hidden" key={index}>
         {word.split("").map((char, index) => (
           <motion.span className="inline-block" variants={letterVariants} key={index}>
             {char}
